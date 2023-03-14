@@ -1,0 +1,458 @@
+%BladderBand1
+cst{2,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{2,6}{1,1}.parameters = num2cell([AverageBladderBand1]);
+cst{2,6}{1,1}.penalty = 2;
+
+cst{2,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{2,6}{1,2}.parameters = num2cell([maxBladderBand1]);
+cst{2,6}{1,2}.penalty = 10;
+
+%BladderBand2
+cst{3,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{3,6}{1,1}.parameters = num2cell([AverageBladderBand2]);
+cst{3,6}{1,1}.penalty = 2;
+
+cst{3,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{3,6}{1,2}.parameters = num2cell([maxBladderBand2]);
+cst{3,6}{1,2}.penalty = 10;
+
+
+%BladderBand3
+cst{4,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{4,6}{1,1}.parameters = num2cell([AverageBladderBand3]);
+cst{4,6}{1,1}.penalty = 2;
+
+cst{4,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{4,6}{1,2}.parameters = num2cell([maxBladderBand3]);
+cst{4,6}{1,2}.penalty = 10;
+
+
+%BladderBand4
+cst{5,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{5,6}{1,1}.parameters = num2cell([AverageBladderBand4]);
+cst{5,6}{1,1}.penalty = 2;
+
+cst{5,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{5,6}{1,2}.parameters = num2cell([maxBladderBand4]);
+cst{5,6}{1,2}.penalty = 10;
+
+
+%BladderBand5
+cst{6,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{6,6}{1,1}.parameters = num2cell([AverageBladderBand5]);
+cst{6,6}{1,1}.penalty = 2;
+
+cst{6,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{6,6}{1,2}.parameters = num2cell([maxBladderBand5]);
+cst{6,6}{1,2}.penalty = 10;
+
+%BladderBand6
+cst{7,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{7,6}{1,1}.parameters = num2cell([AverageBladderBand6]);
+cst{7,6}{1,1}.penalty = 2;
+
+cst{7,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{7,6}{1,2}.parameters = num2cell([maxBladderBand6]);
+cst{7,6}{1,2}.penalty = 10;
+
+
+%BladderBand7
+cst{8,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{8,6}{1,1}.parameters = num2cell([AverageBladderBand7]);
+cst{8,6}{1,1}.penalty = 2;
+
+cst{8,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{8,6}{1,2}.parameters = num2cell([maxBladderBand7]);
+cst{8,6}{1,2}.penalty = 10;
+
+
+%BladderBand8
+cst{9,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{9,6}{1,1}.parameters = num2cell([AverageBladderBand8]);
+cst{9,6}{1,1}.penalty = 2;
+
+cst{9,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{9,6}{1,2}.parameters = num2cell([maxBladderBand8]);
+cst{9,6}{1,2}.penalty = 10;
+
+
+%BladderBand9
+cst{10,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{10,6}{1,1}.parameters = num2cell([AverageBladderBand9]);
+cst{10,6}{1,1}.penalty = 2;
+
+cst{10,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{10,6}{1,2}.parameters = num2cell([maxBladderBand9]);
+cst{10,6}{1,2}.penalty = 10;
+
+
+%BladderBand10
+cst{11,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{11,6}{1,1}.parameters = num2cell([AverageBladderBand10]);
+cst{11,6}{1,1}.penalty = 2;
+
+cst{11,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{11,6}{1,2}.parameters = num2cell([maxBladderBand10]);
+cst{11,6}{1,2}.penalty = 10;
+
+
+%BODYBand1
+cst{13,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{13,6}{1,1}.parameters = num2cell([AverageBODYBand1]);
+cst{13,6}{1,1}.penalty = 0;
+
+cst{13,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{13,6}{1,2}.parameters = num2cell([maxBODYBand1]);
+cst{13,6}{1,2}.penalty = 50;
+
+
+%BODYBand2
+cst{14,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{14,6}{1,1}.parameters = num2cell([AverageBODYBand2]);
+cst{14,6}{1,1}.penalty = 0;
+
+cst{14,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{14,6}{1,2}.parameters = num2cell([maxBODYBand2]);
+cst{14,6}{1,2}.penalty = 50;
+
+
+%BODYBand3
+cst{15,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{15,6}{1,1}.parameters = num2cell([AverageBODYBand3]);
+cst{15,6}{1,1}.penalty = 0;
+
+cst{15,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{15,6}{1,2}.parameters = num2cell([maxBODYBand3]);
+cst{15,6}{1,2}.penalty = 50;
+
+
+%BODYBand4
+cst{16,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{16,6}{1,1}.parameters = num2cell([AverageBODYBand4]);
+cst{16,6}{1,1}.penalty = 0;
+
+cst{16,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{16,6}{1,2}.parameters = num2cell([maxBODYBand4]);
+cst{16,6}{1,2}.penalty = 50;
+
+
+%BODYBand5
+cst{17,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{17,6}{1,1}.parameters = num2cell([AverageBODYBand5]);
+cst{17,6}{1,1}.penalty = 0;
+
+cst{17,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{17,6}{1,2}.parameters = num2cell([maxBODYBand5]);
+cst{17,6}{1,2}.penalty = 50;
+
+%BODYBand6
+cst{18,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{18,6}{1,1}.parameters = num2cell([AverageBODYBand6]);
+cst{18,6}{1,1}.penalty = 0;
+
+cst{18,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{18,6}{1,2}.parameters = num2cell([maxBODYBand6]);
+cst{18,6}{1,2}.penalty = 50;
+
+
+%BODYBand7
+cst{19,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{19,6}{1,1}.parameters = num2cell([AverageBODYBand7]);
+cst{19,6}{1,1}.penalty = 0;
+
+cst{19,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{19,6}{1,2}.parameters = num2cell([maxBODYBand7]);
+cst{19,6}{1,2}.penalty = 50;
+
+
+%BODYBand8
+cst{20,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{20,6}{1,1}.parameters = num2cell([AverageBODYBand8]);
+cst{20,6}{1,1}.penalty = 0;
+
+cst{20,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{20,6}{1,2}.parameters = num2cell([maxBODYBand8]);
+cst{20,6}{1,2}.penalty = 50;
+
+
+%BODYBand9
+cst{21,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{21,6}{1,1}.parameters = num2cell([AverageBODYBand9]);
+cst{21,6}{1,1}.penalty = 0;
+
+cst{21,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{21,6}{1,2}.parameters = num2cell([maxBODYBand9]);
+cst{21,6}{1,2}.penalty = 5;
+
+
+%BODYBand10
+cst{22,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{22,6}{1,1}.parameters = num2cell([AverageBODYBand10]);
+cst{22,6}{1,1}.penalty = 0;
+
+cst{22,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{22,6}{1,2}.parameters = num2cell([maxBODYBand10]);
+cst{22,6}{1,2}.penalty = 5;
+
+
+%FemlBand1
+cst{25,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{25,6}{1,1}.parameters = num2cell([AverageFemlBand1]);
+cst{25,6}{1,1}.penalty = 2;
+
+cst{25,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{25,6}{1,2}.parameters = num2cell([maxFemlBand1]);
+cst{25,6}{1,2}.penalty = 10;
+
+
+%FemlBand2
+cst{26,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{26,6}{1,1}.parameters = num2cell([AverageFemlBand2]);
+cst{26,6}{1,1}.penalty = 2;
+
+cst{26,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{26,6}{1,2}.parameters = num2cell([maxFemlBand2]);
+cst{26,6}{1,2}.penalty = 10;
+
+
+%FemlBand3
+cst{27,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{27,6}{1,1}.parameters = num2cell([AverageFemlBand3]);
+cst{27,6}{1,1}.penalty = 2;
+
+cst{27,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{27,6}{1,2}.parameters = num2cell([maxFemlBand3]);
+cst{27,6}{1,2}.penalty = 10;
+
+
+%FemlBand4
+cst{28,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{28,6}{1,1}.parameters = num2cell([AverageFemlBand4]);
+cst{28,6}{1,1}.penalty = 2;
+
+cst{28,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{28,6}{1,2}.parameters = num2cell([maxFemlBand4]);
+cst{28,6}{1,2}.penalty = 10;
+
+
+%FemlBand5
+cst{29,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{29,6}{1,1}.parameters = num2cell([AverageFemlBand5]);
+cst{29,6}{1,1}.penalty = 2;
+
+cst{29,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{29,6}{1,2}.parameters = num2cell([maxFemlBand5]);
+cst{29,6}{1,2}.penalty = 10;
+
+
+%FemrBand1
+cst{30,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{30,6}{1,1}.parameters = num2cell([AverageFemrBand1]);
+cst{30,6}{1,1}.penalty = 2;
+
+cst{30,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{30,6}{1,2}.parameters = num2cell([maxFemrBand1]);
+cst{30,6}{1,2}.penalty = 10;
+
+
+%FemrBand2
+cst{31,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{31,6}{1,1}.parameters = num2cell([AverageFemrBand2]);
+cst{31,6}{1,1}.penalty = 2;
+
+cst{31,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{31,6}{1,2}.parameters = num2cell([maxFemrBand2]);
+cst{31,6}{1,2}.penalty = 10;
+
+
+%FemrBand3
+cst{32,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{32,6}{1,1}.parameters = num2cell([AverageFemrBand3]);
+cst{32,6}{1,1}.penalty = 2;
+
+cst{32,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{32,6}{1,2}.parameters = num2cell([maxFemrBand3]);
+cst{32,6}{1,2}.penalty = 10;
+
+
+%FemrBand4
+cst{33,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{33,6}{1,1}.parameters = num2cell([AverageFemrBand4]);
+cst{33,6}{1,1}.penalty = 2;
+
+cst{33,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{33,6}{1,2}.parameters = num2cell([maxFemrBand4]);
+cst{33,6}{1,2}.penalty = 10;
+
+
+%FemrBand5
+cst{34,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{34,6}{1,1}.parameters = num2cell([AverageFemrBand5]);
+cst{34,6}{1,1}.penalty = 2;
+
+cst{34,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{34,6}{1,2}.parameters = num2cell([maxFemrBand5]);
+cst{34,6}{1,2}.penalty = 10;
+
+
+%RectumBand1
+cst{37,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{37,6}{1,1}.parameters = num2cell([AverageRectumBand1]);
+cst{37,6}{1,1}.penalty = 2;
+
+cst{37,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{37,6}{1,2}.parameters = num2cell([maxRectumBand1]);
+cst{37,6}{1,2}.penalty = 10;
+
+
+%RectumBand2
+cst{38,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{38,6}{1,1}.parameters = num2cell([AverageRectumBand2]);
+cst{38,6}{1,1}.penalty = 2;
+
+cst{38,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{38,6}{1,2}.parameters = num2cell([maxRectumBand2]);
+cst{38,6}{1,2}.penalty = 10;
+
+
+%RectumBand3
+cst{39,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{39,6}{1,1}.parameters = num2cell([AverageRectumBand3]);
+cst{39,6}{1,1}.penalty = 2;
+
+cst{39,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{39,6}{1,2}.parameters = num2cell([maxRectumBand3]);
+cst{39,6}{1,2}.penalty = 10;
+
+
+%RectumBand4
+cst{40,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{40,6}{1,1}.parameters = num2cell([AverageRectumBand4]);
+cst{40,6}{1,1}.penalty = 2;
+
+cst{40,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{40,6}{1,2}.parameters = num2cell([maxRectumBand4]);
+cst{40,6}{1,2}.penalty = 10;
+
+
+%RectumBand5
+cst{41,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{41,6}{1,1}.parameters = num2cell([AverageRectumBand5]);
+cst{41,6}{1,1}.penalty = 2;
+
+cst{41,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{41,6}{1,2}.parameters = num2cell([maxRectumBand5]);
+cst{41,6}{1,2}.penalty = 10;
+
+
+%SIBand1
+cst{43,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{43,6}{1,1}.parameters = num2cell([AverageSIBand1]);
+cst{43,6}{1,1}.penalty = 2;
+
+cst{43,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{43,6}{1,2}.parameters = num2cell([maxSIBand1]);
+cst{43,6}{1,2}.penalty = 10;
+
+
+%SIBand2
+cst{44,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{44,6}{1,1}.parameters = num2cell([AverageSIBand2]);
+cst{44,6}{1,1}.penalty = 2;
+
+cst{44,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{44,6}{1,2}.parameters = num2cell([maxSIBand2]);
+cst{44,6}{1,2}.penalty = 10;
+
+
+%SIBand3
+cst{45,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{45,6}{1,1}.parameters = num2cell([AverageSIBand3]);
+cst{45,6}{1,1}.penalty = 2;
+
+cst{45,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{45,6}{1,2}.parameters = num2cell([maxSIBand3]);
+cst{45,6}{1,2}.penalty = 10;
+
+
+%SIBand4
+cst{46,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{46,6}{1,1}.parameters = num2cell([AverageSIBand4]);
+cst{46,6}{1,1}.penalty = 2;
+
+cst{46,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{46,6}{1,2}.parameters = num2cell([maxSIBand4]);
+cst{46,6}{1,2}.penalty = 10;
+
+
+%SIBand5
+cst{47,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{47,6}{1,1}.parameters = num2cell([AverageSIBand5]);
+cst{47,6}{1,1}.penalty = 2;
+
+cst{47,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{47,6}{1,2}.parameters = num2cell([maxSIBand5]);
+cst{47,6}{1,2}.penalty = 10;
+
+%SIBand6
+cst{48,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{48,6}{1,1}.parameters = num2cell([AverageSIBand6]);
+cst{48,6}{1,1}.penalty = 2;
+
+cst{48,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{48,6}{1,2}.parameters = num2cell([maxSIBand6]);
+cst{48,6}{1,2}.penalty = 10;
+
+
+%SIBand7
+cst{49,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{49,6}{1,1}.parameters = num2cell([AverageSIBand7]);
+cst{49,6}{1,1}.penalty = 2;
+
+cst{49,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{49,6}{1,2}.parameters = num2cell([maxSIBand7]);
+cst{49,6}{1,2}.penalty = 10;
+
+
+%SIBand8
+cst{50,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{50,6}{1,1}.parameters = num2cell([AverageSIBand8]);
+cst{50,6}{1,1}.penalty = 2;
+
+cst{50,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{50,6}{1,2}.parameters = num2cell([maxSIBand8]);
+cst{50,6}{1,2}.penalty = 10;
+
+
+%SIBand9
+cst{51,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{51,6}{1,1}.parameters = num2cell([AverageSIBand9]);
+cst{51,6}{1,1}.penalty = 2;
+
+cst{51,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{51,6}{1,2}.parameters = num2cell([maxSIBand9]);
+cst{51,6}{1,2}.penalty = 10;
+
+
+%SIBand10
+cst{52,6}{1,1}.className = 'DoseObjectives.matRad_SquaredDeviation';
+cst{52,6}{1,1}.parameters = num2cell([AverageSIBand10]);
+cst{52,6}{1,1}.penalty = 2;
+
+cst{52,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+cst{52,6}{1,2}.parameters = num2cell([maxSIBand10]);
+cst{52,6}{1,2}.penalty = 10;
+
+% %PTV1
+% cst{35,6}{1,1}.className = 'DoseObjectives.matRad_MaxDVH';
+% cst{35,6}{1,1}.parameters = [49,0];
+% cst{35,6}{1,1}.penalty = 500;
+% 
+% cst{35,6}{1,1}.className = 'DoseObjectives.matRad_MinDVH';
+% cst{35,6}{1,1}.parameters = [47,100];
+% cst{35,6}{1,1}.penalty = 2000;
+% 
+% cst{35,6}{1,2}.className = 'DoseObjectives.matRad_SquaredOverdosing';
+% cst{35,6}{1,2}.parameters = [47.5];
+% cst{35,6}{1,2}.penalty = 500;
+
